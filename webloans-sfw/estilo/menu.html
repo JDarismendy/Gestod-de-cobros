@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+    <!-- FONT AWESOEM -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<title>Webloans</title>
+</head>
+<style >
+	 #menu{
+            background-color: #8B0000;
+            font-size: 25px;
+        }
+
+        #menu ul{
+            list-style: none;
+            margin: 0;
+            padding: 20px 30px;
+        }
+
+        #menu li{
+            display: inline;
+            margin: 0;
+        }
+
+        #menu li a{
+            color: white;
+            padding: 20px 30px;
+            text-decoration: none;
+        }
+
+        #menu li a:hover{
+            background-color: cornflowerblue;
+            color: white;
+        }
+
+        @media screen and (max-width: 747px){
+            #menu ul{
+                padding: 0;
+            }
+            #menu ul li{
+                margin-right: -3px;
+                display: inline-block;
+                text-align: center;
+                width: 33%;
+            }
+
+            #menu li a{
+                display: list-item;
+            }
+        }
+</style>
+<body>
+<div align="right" id="menu">
+        <ul >
+            <li><a href="..\vistas\inicio.php">Home</a></li>
+            <li><a href="..\vistas\clientes.php">Clientes</a></li>
+            <li><a href="..\vistas\prestamos.php">Prestamos</a></li>
+            <li><a href="..\vistas\reportes.php">Reportes</a></li>
+            <li><a href="..\vistas\perfil.php"><i class="fa fa-user"></i></a></li>
+            <li><a href="..\login\cerrar_sesion.php"><i class="fa fa-power-off"></i></a></li>
+            
+            
+           </ul>
+    </div>
+</body>
+</html>
